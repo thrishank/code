@@ -5,44 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="box">
-      <div class="h1">
-        <h1 id="num">___</h1>
-      </div>
-      <div class="box-shadow">
-        <div class="coulmn1">
-          <button class="button1">0</button>
-          <button class="button1">1</button>
-          <button class="button1">2</button>
-          <button class="button1">3</button>
-          <button class="button1">4</button>
+    <div class="calculator">
+      <div class="input" id="input"></div>
+      <div class="buttons">
+        <div class="operators">
+          <div>+</div>
+          <div>-</div>
+          <div>&times;</div>
+          <div>&divide;</div>
         </div>
-        <div class="coulmn2">
-          <button>5</button>
-          <button>6</button>
-          <button>7</button>
-          <button>8</button>
-          <button>9</button>
+        <div class="left-panal">
+          <div class="numbers">
+            <div>9</div>
+            <div>8</div>
+            <div>7</div>
+          </div>
+          <div class="numbers">
+            <div>6</div>
+            <div>5</div>
+            <div>4</div>
+          </div>
+          <div class="numbers">
+            <div>3</div>
+            <div>2</div>
+            <div>1</div>
+          </div>
+          <div class="numbers">
+            <div>0</div>
+            <div>.</div>
+            <div id="clear">C</div>
+          </div>
         </div>
-        <div class="coulmn3">
-          <button class="clear">c</button>
-          <button><-</button>
-          <button>/</button>
-          <button>()</button>
-          <button>.</button>
-        </div>
-        <div class="coulmn4">
-          <button>+</button>
-          <button>-</button>
-          <button>*</button>
-          <button>%</button>
-          <button>=</button>
-        </div>
+        <div class="equal" id="result">=</div>
       </div>
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>
